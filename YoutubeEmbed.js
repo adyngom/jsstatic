@@ -42,7 +42,7 @@ class YoutubeEmbed extends HTMLElement {
 
             <iframe 
                 class="youtube-embed"
-                src="https://www.youtube.com/embed/${this.#videoId}&rel=0&ytp-pause-overlay=0" 
+                src="https://www.youtube.com/embed/${this.#videoId}?rel=0&ytp-pause-overlay=0" 
                 title="${this.#title}"" 
                 frameborder="0" allow="accelerometer; 
                 autoplay; 
